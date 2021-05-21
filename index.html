@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu May 06 2021 05:27:16 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Fri May 21 2021 16:25:54 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="60908f825379536f54169f6d" data-wf-site="60908f82537953aea1169f6c">
 <head>
   <meta charset="utf-8">
@@ -15,6 +15,13 @@
   <link href="images/webclip.png" rel="apple-touch-icon">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@4/themes/light.css">
+  <style>
+.tippy-tooltip {
+  font-size: 1.75vh;
+  padding: 1vh 2vh;
+}
+</style>
 </head>
 <body class="body">
   <section class="globalsection banner">
@@ -30,31 +37,31 @@
     </div>
   </section>
   <section class="globalsection table">
-    <div class="globalcontent w-container">
+    <div class="globalcontent _1 w-container">
       <div class="_w-7layers">
-        <div class="_w-row-7layers _1">
+        <div class="_w-row-7layers in">
           <div class="_w-grid-7layers _20">
             <p class="b0-page _7layers _1-copy">Intelligence</p>
           </div>
           <div class="divider-7layers"></div>
-          <div class="_w-grid-7layers">
+          <div id="btn-in1" class="_w-grid-7layers anchored w">
+            <div data-tippy-content="Apps, underlying SDKs and OS use machine learnt variables to improve battery, accuracy and real-time considerations." class="overlay tippy"></div>
             <div class="_w-content-7layers">
               <p class="b1-page _7layers"><strong class="bold-text-7layers _1">Machine-learnt Configs</strong></p>
-              <p class="b3-page _7layers">Battery, Accuracy, Realtime-ness</p>
             </div>
           </div>
           <div class="divider-7layers"></div>
-          <div class="_w-grid-7layers">
+          <div id="btn-in2" data-tippy-content="The core business application can model learnings of expected v actual, and loop them back to improve workflows and make them smarter." class="_w-grid-7layers anchored w">
+            <div data-tippy-content="The core business application can model learnings of expected v actual, and loop them back to improve workflows and make them smarter." class="overlay tippy"></div>
             <div class="_w-content-7layers">
               <p class="b1-page _7layers"><strong class="bold-text-7layers _1">Loopback</strong></p>
-              <p class="b3-page _7layers">Exceptions, Bottlenecks, Deviations from Plan, Error rates</p>
             </div>
           </div>
           <div class="divider-7layers"></div>
-          <div class="_w-grid-7layers">
+          <div id="btn-in3" data-tippy-content="Location-based insights with queries, charts, reports and data visualizations to power business intelligence. Often called location intelligence." class="_w-grid-7layers anchored w">
+            <div data-tippy-content="Location-based insights with queries, charts, reports and data visualizations to power business intelligence. Often called location intelligence." class="overlay tippy"></div>
             <div class="_w-content-7layers">
               <p class="b1-page _7layers"><strong class="bold-text-7layers _1">Insights</strong></p>
-              <p class="b3-page _7layers">KPIs, Leaderboards, Trends, P&amp;L impact</p>
             </div>
           </div>
         </div>
@@ -63,126 +70,131 @@
             <p class="b0-page _7layers _2">Use Case</p>
           </div>
           <div class="divider-7layers"></div>
-          <a id="btn-uc1" href="#" class="_w-grid-7layers anchored _1 w-inline-block">
+          <div id="btn-uc1" data-tippy-content="Native or hybrid apps for users on the move. These may be built from scratch, bought as packaged applications, or implemented with API-first products." class="_w-grid-7layers anchored _1">
+            <div data-tippy-content="Native or hybrid apps for users on the move. These may be built from scratch, bought as packaged applications, or implemented with API-first products." class="overlay tippy"></div>
             <div class="_w-content-7layers">
               <p class="b1-page _7layers"><strong class="bold-text-7layers _2">Fleet App</strong></p>
-              <p class="b3-page _7layers">Own, Off-the-shelf, 3rd party</p>
             </div>
-          </a>
+          </div>
           <div class="divider-7layers"></div>
-          <a id="btn-uc2" href="#" class="_w-grid-7layers anchored _1 w-inline-block">
+          <div id="btn-uc2" data-tippy-content="The control center that manages business applications &amp; workflows to orchestrate the location solution. These may be built from scratch, bought as packaged applications, or implemented with API-first products." class="_w-grid-7layers anchored _1">
+            <div data-tippy-content="The control center that manages business applications &amp; workflows to orchestrate the location solution. These may be built from scratch, bought as packaged applications, or implemented with API-first products." class="overlay tippy"></div>
             <div class="_w-content-7layers">
               <p class="b1-page _7layers"><strong class="bold-text-7layers _2">Workflow Management</strong></p>
-              <p class="b3-page _7layers">Orders, Users, Trips, Places, Customers, Teams</p>
             </div>
-          </a>
+          </div>
           <div class="divider-7layers"></div>
-          <a id="btn-uc3" data-w-id="7125a5c8-27d9-e4b5-c562-12b5ac0aeba2" href="#" class="_w-grid-7layers anchored _1 w-inline-block">
+          <div id="btn-uc3" data-tippy-content="Operations dashboards and customer apps that consume app user data. These may be built from scratch, bought as packaged applications, or implemented with API-first products." data-w-id="10c525bb-4d92-42e9-764a-31efe3b71890" class="_w-grid-7layers anchored _1">
+            <div data-tippy-content="Operations dashboards and customer apps that consume app user data. These may be built from scratch, bought as packaged applications, or implemented with API-first products." class="overlay tippy"></div>
             <div class="_w-content-7layers">
               <p class="b1-page _7layers"><strong class="bold-text-7layers _2">User Experience</strong></p>
-              <p class="b3-page _7layers">Ops dashboards, customer experience, payouts</p>
             </div>
-          </a>
+          </div>
         </div>
         <div class="_w-row-7layers _3">
           <div class="_w-grid-7layers _20">
             <p class="b0-page _7layers _3-5">Context</p>
           </div>
           <div class="divider-7layers"></div>
-          <div class="_w-grid-7layers g">
+          <div id="btn-cd" data-tippy-content="3rd party SDKs that combine location with application context, user privacy, and other sensor data for apps to directly consume." class="_w-grid-7layers anchored g">
+            <div data-tippy-content="3rd party SDKs that combine location with application context, user privacy, and other sensor data for apps to directly consume." class="overlay tippy"></div>
             <div class="_w-content-7layers">
               <p class="b1-page _7layers"><strong class="bold-text-7layers _3-5">On-device Context</strong></p>
-              <p class="b3-page _7layers">Geotags, Activity, Privacy, Device &amp; Network Health</p>
             </div>
           </div>
           <div class="divider-7layers"></div>
-          <a id="btn-ipcc2" href="#" class="_w-grid-7layers anchored g w-inline-block">
+          <div id="btn-cc" data-tippy-content="Cloud services and 3rd party APIs that help ingest, process and store ground truth data for applications to consume." class="_w-grid-7layers anchored g">
+            <div data-tippy-content="Cloud services and 3rd party APIs that help ingest, process and store ground truth data for applications to consume." class="overlay tippy"></div>
             <div class="_w-content-7layers">
               <p class="b1-page _7layers"><strong class="bold-text-7layers _3-5">Ground Truth</strong></p>
-              <p class="b3-page _7layers">Visit duration, Distance, Steps, On-time, Nearby</p>
             </div>
-          </a>
+          </div>
           <div class="divider-7layers"></div>
-          <a id="btn-ca" href="#" class="_w-grid-7layers anchored g w-inline-block">
+          <div id="btn-ca" data-tippy-content="Cloud services and 3rd party APIs &amp; SDKs to receive processed context and power application workflows, web and native views, business analytics, data models and other services." class="_w-grid-7layers anchored g">
+            <div data-tippy-content="Cloud services and 3rd party APIs &amp; SDKs to receive processed context and power application workflows, web and native views, business analytics, data models and other services." class="overlay tippy"></div>
             <div class="_w-content-7layers">
               <p class="b1-page _7layers"><strong class="bold-text-7layers _3-5">Consumption of Context</strong></p>
-              <p class="b3-page _7layers">Webhooks, Views, APIs, Exports</p>
             </div>
-          </a>
+          </div>
         </div>
         <div class="_w-row-7layers _3">
           <div class="_w-grid-7layers _20">
             <p class="b0-page _7layers _3-5">Policy</p>
           </div>
           <div class="divider-7layers"></div>
-          <a id="btn-ipcc1" href="#" class="_w-grid-7layers anchored g w-inline-block">
+          <div id="btn-ipcc" data-tippy-content="App users&#x27; location data is sensitive. Businesses need to implement requisite privacy, security and compliance policies to manage the risk of misuse. The cost of mistakes is high and can put the business at risk." class="_w-grid-7layers anchored g">
+            <div data-tippy-content="App users&#x27; location data is sensitive. Businesses need to implement requisite privacy, security and compliance policies to manage the risk of misuse. The cost of mistakes is high and can put the business at risk." class="overlay tippy"></div>
             <div class="_w-content-7layers single-row">
               <p class="b1-page _7layers"><strong class="bold-text-7layers _3-5">Privacy  —  Security  —  Compliance</strong></p>
             </div>
-          </a>
+          </div>
         </div>
         <div class="_w-row-7layers _3">
           <div class="_w-grid-7layers _20">
             <p class="b0-page _7layers _3-5">Infra</p>
           </div>
           <div class="divider-7layers"></div>
-          <a id="btn-ir" href="#" class="_w-grid-7layers anchored g w-inline-block">
+          <div id="btn-ir" data-tippy-content="Battery, Accuracy and realtime-ness are the primary considerations for any device to cloud infrastructure to manage location data in the cloud. Top cloud providers have managed services that help build this out." class="_w-grid-7layers anchored g">
+            <div data-tippy-content="Battery, Accuracy and realtime-ness are the primary considerations for any device to cloud infrastructure to manage location data in the cloud. Top cloud providers have managed services that help build this out." class="overlay tippy"></div>
             <div class="_w-content-7layers single-row">
               <p class="b1-page _7layers"><strong class="bold-text-7layers _3-5">Battery efficient  —  Accurate  —  Realtime</strong></p>
             </div>
-          </a>
+          </div>
           <div class="divider-7layers"></div>
-          <a id="btn-ia" href="#" class="_w-grid-7layers anchored _2 g w-inline-block">
+          <div id="btn-ia" data-tippy-content="Getting location data to web and native apps requires server to front-end infrastructure." class="_w-grid-7layers anchored _2 g">
+            <div data-tippy-content="Getting location data to web and native apps requires server to front-end infrastructure." class="overlay tippy"></div>
             <div class="_w-content-7layers">
-              <p class="b1-page _7layers"><strong class="bold-text-7layers _3-5">Data Visualization</strong></p>
-              <p class="b3-page _7layers">Web, Native, Hybrid</p>
+              <p class="b1-page _7layers"><strong class="bold-text-7layers _3-5">Data Layer</strong></p>
             </div>
-          </a>
+          </div>
         </div>
         <div class="_w-row-7layers _6-7">
           <div class="_w-grid-7layers _20">
             <p class="b0-page _7layers _6-7">Maps</p>
           </div>
           <div class="divider-7layers"></div>
-          <a id="btn-mnd" href="#" class="_w-grid-7layers anchored y w-inline-block">
+          <div id="btn-mnd" data-tippy-content="Maps provide powerful navigation and display SDKs that connected apps can use on the device." class="_w-grid-7layers anchored y">
+            <div data-tippy-content="Maps provide powerful navigation and display SDKs that connected apps can use on the device." class="overlay tippy"></div>
             <div class="_w-content-7layers single-row">
               <p class="b1-page _7layers"><strong class="bold-text-7layers _6-7">Navigation &amp; Display</strong></p>
             </div>
-          </a>
+          </div>
           <div class="divider-7layers"></div>
-          <a id="btn-mpr" href="#" class="_w-grid-7layers anchored y w-inline-block">
+          <div id="btn-mpr" data-tippy-content="The core capability of Maps APIs is places and routes. There are various open source and paid options available in the market." class="_w-grid-7layers anchored y">
+            <div data-tippy-content="The core capability of Maps APIs is places and routes. There are various open source and paid options available in the market." class="overlay tippy"></div>
             <div class="_w-content-7layers">
               <p class="b1-page _7layers"><strong class="bold-text-7layers _6-7">Places &amp; Routes</strong></p>
-              <p class="b3-page _7layers">Geocoding, Distance, Geofences, ETAs</p>
             </div>
-          </a>
+          </div>
           <div class="divider-7layers"></div>
-          <a id="btn-mvl" href="#" class="_w-grid-7layers anchored y w-inline-block">
+          <div id="btn-mvl" data-tippy-content="Maps provide web and native applications with beautiful libraries to visualize location data. Tiles, vectors, 3D, AR, big data, etc." class="_w-grid-7layers anchored y">
+            <div data-tippy-content="Maps provide web and native applications with beautiful libraries to visualize location data. Tiles, vectors, 3D, AR, big data, etc." class="overlay tippy"></div>
             <div class="_w-content-7layers single-row">
               <p class="b1-page _7layers"><strong class="bold-text-7layers _6-7">Visualization Libraries</strong></p>
             </div>
-          </a>
+          </div>
         </div>
-        <div class="_w-row-7layers _6-7">
+        <div class="_w-row-7layers _6-7 _2">
           <div class="_w-grid-7layers _20">
             <p class="b0-page _7layers _6-7">OS</p>
           </div>
           <div class="divider-7layers"></div>
-          <a id="btn-osd" href="#" class="_w-grid-7layers anchored y w-inline-block">
+          <div id="btn-osd" data-tippy-content="OS APIs to get location from the device. Other sensors put location in context of ground truth." class="_w-grid-7layers anchored y">
+            <div data-tippy-content="OS APIs to get location from the device. Other sensors put location in context of ground truth." class="overlay tippy"></div>
             <div class="_w-content-7layers">
               <p class="b1-page _7layers"><strong class="bold-text-7layers _6-7">On-device APIs</strong></p>
-              <p class="b3-page _7layers">Location, Sensor, Geofence</p>
             </div>
-          </a>
+          </div>
           <div class="divider-7layers"></div>
-          <a id="btn-osc" href="#" class="_w-grid-7layers anchored y w-inline-block">
+          <div id="btn-osc" data-tippy-content="Reliable two-way communication between device and server is required to ingest location to the cloud or fetch it on-demand." class="_w-grid-7layers anchored y">
+            <div data-tippy-content="Reliable two-way communication between device and server is required to ingest location to the cloud or fetch it on-demand." class="overlay tippy"></div>
             <div class="_w-content-7layers">
               <p class="b1-page _7layers"><strong class="bold-text-7layers _6-7">Messaging &amp; Notifications</strong></p>
-              <p class="b3-page _7layers">Quiet Push Notifications, Sockets, HTTP, MQTT</p>
             </div>
-          </a>
+          </div>
           <div class="divider-7layers"></div>
-          <div class="_w-grid-7layers">
+          <div class="_w-grid-7layers anchored-copy">
+            <div data-tippy-content="This section is not applicable because the OS does not provide apps with a direct provision to get another device&#x27;s location as an API." class="overlay tippy"></div>
             <div class="_w-content-7layers">
               <p class="b1-page _7layers"><strong class="bold-text-7layers _6-7">-</strong></p>
             </div>
@@ -225,14 +237,30 @@
       </div>
     </div>
   </section>
-  <section style="display:none;opacity:0" class="globalsection dialog">
-    <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="_w-dialog">
+  <section class="globalsection dialog">
+    <div class="_w-dialog">
       <div class="_w-header-dialog">
         <a id="btn-closeDialog" data-w-id="183d80d5-feed-e722-1dcb-1149feb131fc" href="#" class="_w-ic cross w-inline-block"><img src="images/close_small.svg" loading="lazy" alt="" class="ic-cross"></a>
       </div>
       <div class="_w-body-dialog">
         <div class="ic-favicon hidden"></div>
         <section id="osd" class="_w-resource">
+          <div class="_w-card-resource dp">
+            <div class="_w-row1-resource">
+              <p class="meta-title dp">OS APIs to get location from the device. Other sensors put location in context of ground truth</p>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">Building movement-aware applications, part 1: mobile OS considerations</p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/blog/2018/02/26/movement-part-1-os/</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
           <div class="_w-card-resource top">
             <div class="_w-row1-resource">
               <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://developer.apple.com/documentation/corelocation"></div>
@@ -279,6 +307,12 @@
           </div>
         </section>
         <section id="osc" class="_w-resource">
+          <div class="_w-card-resource dp">
+            <div class="_w-row1-resource">
+              <p class="meta-title dp">Reliable two-way communication between device and server is required to ingest location to the cloud or fetch it on-demand</p>
+            </div>
+            <div class="divider-home"></div>
+          </div>
           <div class="_w-card-resource">
             <div class="_w-row1-resource">
               <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://firebase.google.com/docs/android/setup"></div>
@@ -355,6 +389,12 @@
           </div>
         </section>
         <section id="mnd" class="_w-resource">
+          <div class="_w-card-resource dp">
+            <div class="_w-row1-resource">
+              <p class="meta-title dp">Maps provide powerful navigation and display SDKs that connected apps can use on the device</p>
+            </div>
+            <div class="divider-home"></div>
+          </div>
           <div class="_w-card-resource">
             <div class="_w-row1-resource">
               <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://github.githubassets.com/favicons/favicon.svg"></div>
@@ -421,6 +461,12 @@
           </div>
         </section>
         <section id="mpr" class="_w-resource">
+          <div class="_w-card-resource dp">
+            <div class="_w-row1-resource">
+              <p class="meta-title dp">The core capability of Maps APIs is places and routes. There are various open source and paid options available in the market</p>
+            </div>
+            <div class="divider-home"></div>
+          </div>
           <div class="_w-card-resource">
             <div class="_w-row1-resource">
               <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://github.githubassets.com/favicons/favicon.svg"></div>
@@ -499,8 +545,17 @@
             <div class="_w-row2-resource">
               <a href="https://azure.microsoft.com/en-us/services/azure-maps/" target="_blank" class="intext-link-resource">https://azure.microsoft.com/en-us/services/azure-maps/</a>
             </div>
+            <div class="divider-home"></div>
           </div>
-          <div class="divider-home"></div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://www.forbes.com/sites/forbestechcouncil/2021/02/24/watch-out-google-maps-with-amazon-location-service-the-location-cloud-is-here//"></div>
+              <p class="meta-title">Council Post: Watch Out, Google Maps: With Amazon Location Service, The Location Cloud Is Here<br></p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://azure.microsoft.com/en-us/services/azure-maps/" target="_blank" class="intext-link-resource">https://www.forbes.com/sites/forbestechcouncil/2021/02/24/watch-out-google-maps-with-amazon-location-service-the-location-cloud-is-here/</a>
+            </div>
+          </div>
           <div class="_w-resource-footer">
             <div class="_w-btn-mailto w-embed">
               <a class="btn-mailto" href="mailto:?subject=&body=:%20" target="_blank" title="Email" onclick="window.open('mailto: help@hypertrack.com?subject=Places & Routes'); return false;">Suggest more resources</a>
@@ -508,6 +563,12 @@
           </div>
         </section>
         <section id="mvl" class="_w-resource">
+          <div class="_w-card-resource dp">
+            <div class="_w-row1-resource">
+              <p class="meta-title dp">Maps provide web and native applications with beautiful libraries to visualize location data. Tiles, vectors, 3D, AR, big data, etc</p>
+            </div>
+            <div class="divider-home"></div>
+          </div>
           <div class="_w-card-resource">
             <div class="_w-row1-resource">
               <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://kepler.gl/"></div>
@@ -566,7 +627,6 @@
             <div class="_w-row2-resource">
               <a href="https://www.maptiler.com/" target="_blank" class="intext-link-resource">https://www.maptiler.com/</a>
             </div>
-            <div class="divider-home"></div>
           </div>
           <div class="_w-resource-footer">
             <div class="_w-btn-mailto w-embed">
@@ -574,7 +634,127 @@
             </div>
           </div>
         </section>
+        <section id="ir" class="_w-resource">
+          <div class="_w-card-resource dp">
+            <div class="_w-row1-resource">
+              <p class="meta-title dp">Battery, Accuracy and realtime-ness are the primary considerations for any device to cloud infrastructure to manage location data in the cloud. Top cloud providers have managed services that help build this out</p>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">Building movement-aware applications, part 2: accuracy</p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/blog/2018/03/01/movement-part-2-accuracy/</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">Building movement-aware applications, part 3: real-time tracking</p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/blog/2018/03/22/movement-part-3-real-time/</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://aws.amazon.com/appsync/"></div>
+              <p class="meta-title">Amazon DynamoDB | NoSQL Key-Value Database | Amazon Web Services<br></p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://aws.amazon.com/dynamodb/" target="_blank" class="intext-link-resource">https://aws.amazon.com/dynamodb/</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://aws.amazon.com/appsync/"></div>
+              <p class="meta-title">AWS Lambda – Serverless Compute - Amazon Web Services<br></p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://aws.amazon.com/lambda/" target="_blank" class="intext-link-resource">https://aws.amazon.com/lambda/</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://aws.amazon.com/appsync/"></div>
+              <p class="meta-title">Amazon Kinesis - Process &amp; Analyze Streaming Data - Amazon Web Services<br></p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://aws.amazon.com/kinesis/" target="_blank" class="intext-link-resource">https://aws.amazon.com/kinesis/</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://cloud.google.com/functions"></div>
+              <p class="meta-title">Cloud Functions  |  Google Cloud<br></p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://cloud.google.com/functions" target="_blank" class="intext-link-resource">https://cloud.google.com/functions</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://kafka.apache.org/images/apache_feather.gif"></div>
+              <p class="meta-title">Apache Kafka<br></p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://kafka.apache.org/" target="_blank" class="intext-link-resource">https://kafka.apache.org/</a>
+            </div>
+          </div>
+          <div class="_w-resource-footer">
+            <div class="_w-btn-mailto w-embed">
+              <a class="btn-mailto" href="mailto:?subject=&body=:%20" target="_blank" title="Email" onclick="window.open('mailto: help@hypertrack.com?subject=Battery efficient — Accurate — Realtime'); return false;">Suggest more resources</a>
+            </div>
+          </div>
+        </section>
+        <section id="ia" class="_w-resource">
+          <div class="_w-card-resource dp">
+            <div class="_w-row1-resource">
+              <p class="meta-title dp">Getting location data to web and native apps requires server to front-end infrastructure</p>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://graphql.org/"></div>
+              <p class="meta-title">GraphQL | A query language for your API<br></p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://graphql.org/" target="_blank" class="intext-link-resource">https://graphql.org/</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://www.apollographql.com/"></div>
+              <p class="meta-title">Apollo GraphQL | Apollo Data Graph Platform— unify APIs, microservices, and databases into a data graph that you can query with GraphQL<br></p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://www.apollographql.com/" target="_blank" class="intext-link-resource">https://www.apollographql.com/</a>
+            </div>
+          </div>
+          <div class="_w-resource-footer">
+            <div class="_w-btn-mailto w-embed">
+              <a class="btn-mailto" href="mailto:?subject=&body=:%20" target="_blank" title="Email" onclick="window.open('mailto: help@hypertrack.com?subject=Data Layer'); return false;">Suggest more resources</a>
+            </div>
+          </div>
+        </section>
         <section id="ipcc" class="_w-resource">
+          <div class="_w-card-resource dp">
+            <div class="_w-row1-resource">
+              <p class="meta-title dp">App users&#x27; location data is sensitive. Businesses need to implement requisite privacy, security and compliance policies to manage the risk of misuse. The cost of mistakes is high and can put the business at risk</p>
+            </div>
+            <div class="divider-home"></div>
+          </div>
           <div class="_w-card-resource">
             <div class="_w-row1-resource">
               <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://aws.amazon.com/appsync/"></div>
@@ -666,93 +846,171 @@
           </div>
           <div class="_w-resource-footer">
             <div class="_w-btn-mailto w-embed">
-              <a class="btn-mailto" href="mailto:?subject=&body=:%20" target="_blank" title="Email" onclick="window.open('mailto: help@hypertrack.com?subject=Privac — Security — Compliance / Ground Truth'); return false;">Suggest more resources</a>
+              <a class="btn-mailto" href="mailto:?subject=&body=:%20" target="_blank" title="Email" onclick="window.open('mailto: help@hypertrack.com?subject=Privac — Security — Compliance'); return false;">Suggest more resources</a>
             </div>
           </div>
         </section>
-        <section id="ir" class="_w-resource">
-          <div class="_w-card-resource">
+        <section id="cd" class="_w-resource">
+          <div class="_w-card-resource dp">
             <div class="_w-row1-resource">
-              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://aws.amazon.com/appsync/"></div>
-              <p class="meta-title">Amazon DynamoDB | NoSQL Key-Value Database | Amazon Web Services<br></p>
-            </div>
-            <div class="_w-row2-resource">
-              <a href="https://aws.amazon.com/dynamodb/" target="_blank" class="intext-link-resource">https://aws.amazon.com/dynamodb/</a>
+              <p class="meta-title dp">3rd party SDKs that combine location with application context, user privacy, and other sensor data for apps to directly consume</p>
             </div>
             <div class="divider-home"></div>
           </div>
           <div class="_w-card-resource">
             <div class="_w-row1-resource">
-              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://aws.amazon.com/appsync/"></div>
-              <p class="meta-title">AWS Lambda – Serverless Compute - Amazon Web Services<br></p>
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">Install SDK | HyperTrack | Docs</p>
             </div>
             <div class="_w-row2-resource">
-              <a href="https://aws.amazon.com/lambda/" target="_blank" class="intext-link-resource">https://aws.amazon.com/lambda/</a>
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/docs/install-sdk</a>
             </div>
             <div class="divider-home"></div>
           </div>
           <div class="_w-card-resource">
             <div class="_w-row1-resource">
-              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://aws.amazon.com/appsync/"></div>
-              <p class="meta-title">Amazon Kinesis - Process &amp; Analyze Streaming Data - Amazon Web Services<br></p>
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">Build your app | HyperTrack | Docs</p>
             </div>
             <div class="_w-row2-resource">
-              <a href="https://aws.amazon.com/kinesis/" target="_blank" class="intext-link-resource">https://aws.amazon.com/kinesis/</a>
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/docs/guides/build-your-app-with-quickstarts</a>
             </div>
             <div class="divider-home"></div>
           </div>
           <div class="_w-card-resource">
             <div class="_w-row1-resource">
-              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://cloud.google.com/functions"></div>
-              <p class="meta-title">Cloud Functions  |  Google Cloud<br></p>
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">Building movement-aware applications, part 1: mobile OS considerations</p>
             </div>
             <div class="_w-row2-resource">
-              <a href="https://cloud.google.com/functions" target="_blank" class="intext-link-resource">https://cloud.google.com/functions</a>
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/blog/2018/02/26/movement-part-1-os/</a>
             </div>
             <div class="divider-home"></div>
           </div>
           <div class="_w-card-resource">
             <div class="_w-row1-resource">
-              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://kafka.apache.org/images/apache_feather.gif"></div>
-              <p class="meta-title">Apache Kafka<br></p>
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://www.metabase.com/"></div>
+              <p class="meta-title">Have questions about your data? Metabase has answers.<br></p>
             </div>
             <div class="_w-row2-resource">
-              <a href="https://kafka.apache.org/" target="_blank" class="intext-link-resource">https://kafka.apache.org/</a>
+              <a href="https://www.metabase.com/" target="_blank" class="intext-link-resource">https://www.metabase.com/</a>
             </div>
           </div>
           <div class="_w-resource-footer">
             <div class="_w-btn-mailto w-embed">
-              <a class="btn-mailto" href="mailto:?subject=&body=:%20" target="_blank" title="Email" onclick="window.open('mailto: help@hypertrack.com?subject=Battery efficient — Accurate — Realtime'); return false;">Suggest more resources</a>
+              <a class="btn-mailto" href="mailto:?subject=&body=:%20" target="_blank" title="Email" onclick="window.open('mailto: help@hypertrack.com?subject=On-device Context'); return false;">Suggest more resources</a>
             </div>
           </div>
         </section>
-        <section id="ia" class="_w-resource">
-          <div class="_w-card-resource">
+        <section id="cc" class="_w-resource">
+          <div class="_w-card-resource dp">
             <div class="_w-row1-resource">
-              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://graphql.org/"></div>
-              <p class="meta-title">GraphQL | A query language for your API<br></p>
-            </div>
-            <div class="_w-row2-resource">
-              <a href="https://graphql.org/" target="_blank" class="intext-link-resource">https://graphql.org/</a>
+              <p class="meta-title dp">Cloud services and 3rd party APIs that help ingest, process and store ground truth data for applications to consume</p>
             </div>
             <div class="divider-home"></div>
           </div>
           <div class="_w-card-resource">
             <div class="_w-row1-resource">
-              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://www.apollographql.com/"></div>
-              <p class="meta-title">Apollo GraphQL | Apollo Data Graph Platform— unify APIs, microservices, and databases into a data graph that you can query with GraphQL<br></p>
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">Automate distance-based payouts | HyperTrack | Docs</p>
             </div>
             <div class="_w-row2-resource">
-              <a href="https://www.apollographql.com/" target="_blank" class="intext-link-resource">https://www.apollographql.com/</a>
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/docs/guides/automate-distance-based-payouts</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">Track App Users | HyperTrack | Docs</p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/docs/guides/track-app-users</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">Dispatch work to Nearby users | HyperTrack | Docs</p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/docs/guides/dispatch-work-to-nearby-users</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=http://postgis.net/"></div>
+              <p class="meta-title">PostGIS — Spatial and Geographic Objects for PostgreSQL<br></p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://aws.amazon.com/athena/" target="_blank" class="intext-link-resource">http://postgis.net/</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://aws.amazon.com/appsync/"></div>
+              <p class="meta-title">Amazon Athena - Serverless Interactive Query Service - Amazon Web Services<br></p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://aws.amazon.com/athena/" target="_blank" class="intext-link-resource">https://aws.amazon.com/athena/</a>
             </div>
           </div>
           <div class="_w-resource-footer">
             <div class="_w-btn-mailto w-embed">
-              <a class="btn-mailto" href="mailto:?subject=&body=:%20" target="_blank" title="Email" onclick="window.open('mailto: help@hypertrack.com?subject=Data Visualization'); return false;">Suggest more resources</a>
+              <a class="btn-mailto" href="mailto:?subject=&body=:%20" target="_blank" title="Email" onclick="window.open('mailto: help@hypertrack.com?subject=Ground Truth'); return false;">Suggest more resources</a>
             </div>
           </div>
         </section>
         <section id="ca" class="_w-resource">
+          <div class="_w-card-resource dp">
+            <div class="_w-row1-resource">
+              <p class="meta-title dp">Cloud services and 3rd party APIs &amp; SDKs to receive processed context and power application workflows, web and native views, business analytics, data models and other services</p>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">Build custom views with data | HyperTrack | Docs</p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/docs/guides/build-custom-views-with-data</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">Stream locations and markers via webhooks | HyperTrack | Docs</p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/docs/guides/stream-locations-and-markers-via-webhooks</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">Export insights | HyperTrack | Docs</p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/docs/guides/export-insights</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">API Reference | HyperTrack | Docs</p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/docs/references</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
           <div class="_w-card-resource">
             <div class="_w-row1-resource">
               <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://aws.amazon.com/appsync/"></div>
@@ -778,7 +1036,13 @@
             </div>
           </div>
         </section>
-        <section id="uc" class="_w-resource _10">
+        <section id="uc1" class="_w-resource">
+          <div class="_w-card-resource dp">
+            <div class="_w-row1-resource">
+              <p class="meta-title dp">Native or hybrid apps for users on the move. These may be built from scratch, bought as packaged applications, or implemented with API-first products</p>
+            </div>
+            <div class="divider-home"></div>
+          </div>
           <div class="_w-card-resource">
             <div class="_w-row1-resource">
               <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://www.capterra.com/delivery-management-software/"></div>
@@ -820,7 +1084,228 @@
           </div>
           <div class="_w-resource-footer">
             <div class="_w-btn-mailto w-embed">
-              <a class="btn-mailto" href="mailto:?subject=&body=:%20" target="_blank" title="Email" onclick="window.open('mailto: help@hypertrack.com?subject=Use Case'); return false;">Suggest more resources</a>
+              <a class="btn-mailto" href="mailto:?subject=&body=:%20" target="_blank" title="Email" onclick="window.open('mailto: help@hypertrack.com?subject=Fleet App'); return false;">Suggest more resources</a>
+            </div>
+          </div>
+        </section>
+        <section id="uc2" class="_w-resource">
+          <div class="_w-card-resource dp">
+            <div class="_w-row1-resource">
+              <p class="meta-title dp">The control center that manages business applications &amp; workflows to orchestrate the location solution. These may be built from scratch, bought as packaged applications, or implemented with API-first products</p>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">Track Orders with Trips | HyperTrack | Docs</p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/docs/guides/track-orders-live-route-eta-delays-with-trips</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">Track Visits with Geofences | HyperTrack | Docs</p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/docs/guides/track-arrival-exit-route-to-geofences</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">Track Work with Geotags | HyperTrack | Docs</p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/docs/guides/track-work-day-with-geotags</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://www.capterra.com/delivery-management-software/"></div>
+              <p class="meta-title">Best Delivery Management Software 2021 | Reviews of the Most Popular Tools &amp; Systems<br></p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://www.capterra.com/delivery-management-software/" target="_blank" class="intext-link-resource">https://www.capterra.com/delivery-management-software/</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://www.capterra.com/delivery-management-software/"></div>
+              <p class="meta-title">Best Field Service Management Software 2021 | Reviews of the Most Popular Tools &amp; Systems<br></p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://www.capterra.com/field-service-management-software/" target="_blank" class="intext-link-resource">https://www.capterra.com/field-service-management-software/</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://www.capterra.com/delivery-management-software/"></div>
+              <p class="meta-title">Best Public Transportation Software 2021 | Reviews of the Most Popular Tools &amp; Systems<br></p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://www.capterra.com/public-transportation-software/" target="_blank" class="intext-link-resource">https://www.capterra.com/public-transportation-software/</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://www.capterra.com/delivery-management-software/"></div>
+              <p class="meta-title">Best Transportation Management Software 2021 | Reviews of the Most Popular Tools &amp; Systems<br></p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://www.capterra.com/transportation-management-software/" target="_blank" class="intext-link-resource">https://www.capterra.com/transportation-management-software/</a>
+            </div>
+          </div>
+          <div class="_w-resource-footer">
+            <div class="_w-btn-mailto w-embed">
+              <a class="btn-mailto" href="mailto:?subject=&body=:%20" target="_blank" title="Email" onclick="window.open('mailto: help@hypertrack.com?subject=Workflow Management'); return false;">Suggest more resources</a>
+            </div>
+          </div>
+        </section>
+        <section id="uc3" class="_w-resource">
+          <div class="_w-card-resource dp">
+            <div class="_w-row1-resource">
+              <p class="meta-title dp">Operations dashboards and customer apps that consume app user data. These may be built from scratch, bought as packaged applications, or implemented with API-first products</p>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">Embed views into ops dashboard | HyperTrack | Docs</p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/docs/guides/embed-views-into-ops-dashboard</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://www.capterra.com/delivery-management-software/"></div>
+              <p class="meta-title">Best Delivery Management Software 2021 | Reviews of the Most Popular Tools &amp; Systems<br></p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://www.capterra.com/delivery-management-software/" target="_blank" class="intext-link-resource">https://www.capterra.com/delivery-management-software/</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://www.capterra.com/delivery-management-software/"></div>
+              <p class="meta-title">Best Field Service Management Software 2021 | Reviews of the Most Popular Tools &amp; Systems<br></p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://www.capterra.com/field-service-management-software/" target="_blank" class="intext-link-resource">https://www.capterra.com/field-service-management-software/</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://www.capterra.com/delivery-management-software/"></div>
+              <p class="meta-title">Best Public Transportation Software 2021 | Reviews of the Most Popular Tools &amp; Systems<br></p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://www.capterra.com/public-transportation-software/" target="_blank" class="intext-link-resource">https://www.capterra.com/public-transportation-software/</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://www.capterra.com/delivery-management-software/"></div>
+              <p class="meta-title">Best Transportation Management Software 2021 | Reviews of the Most Popular Tools &amp; Systems<br></p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://www.capterra.com/transportation-management-software/" target="_blank" class="intext-link-resource">https://www.capterra.com/transportation-management-software/</a>
+            </div>
+          </div>
+          <div class="_w-resource-footer">
+            <div class="_w-btn-mailto w-embed">
+              <a class="btn-mailto" href="mailto:?subject=&body=:%20" target="_blank" title="Email" onclick="window.open('mailto: help@hypertrack.com?subject=User Experience'); return false;">Suggest more resources</a>
+            </div>
+          </div>
+        </section>
+        <section id="in1" class="_w-resource">
+          <div class="_w-card-resource dp">
+            <div class="_w-row1-resource">
+              <p class="meta-title dp">Apps, underlying SDKs and OS use machine learnt variables to improve battery, accuracy and real-time considerations</p>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-resource-footer">
+            <div class="_w-btn-mailto w-embed">
+              <a class="btn-mailto" href="mailto:?subject=&body=:%20" target="_blank" title="Email" onclick="window.open('mailto: help@hypertrack.com?subject=Machine-learnt Configs'); return false;">Suggest more resources</a>
+            </div>
+          </div>
+        </section>
+        <section id="in2" class="_w-resource">
+          <div class="_w-card-resource dp">
+            <div class="_w-row1-resource">
+              <p class="meta-title dp">The core business application can model learnings of expected v actual, and loop them back to improve workflows and make them smarter</p>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://www.forbes.com/sites/forbestechcouncil/2021/04/16/delivery-technology-in-retail-are-we-there-yet/"></div>
+              <p class="meta-title">Council Post: Delivery Technology In Retail: Are We There Yet?</p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://www.forbes.com/sites/forbestechcouncil/2021/04/16/delivery-technology-in-retail-are-we-there-yet/</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://eng.uber.com/uber-eats-trip-optimization/"></div>
+              <p class="meta-title">How Trip Inferences and Machine Learning Optimize Delivery Times on Uber Eats | Uber Engineering Blog</p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://eng.uber.com/uber-eats-trip-optimization/</a>
+            </div>
+          </div>
+          <div class="_w-resource-footer">
+            <div class="_w-btn-mailto w-embed">
+              <a class="btn-mailto" href="mailto:?subject=&body=:%20" target="_blank" title="Email" onclick="window.open('mailto: help@hypertrack.com?subject=Loopback'); return false;">Suggest more resources</a>
+            </div>
+          </div>
+        </section>
+        <section id="in3" class="_w-resource">
+          <div class="_w-card-resource dp">
+            <div class="_w-row1-resource">
+              <p class="meta-title dp">Location-based insights with queries, charts, reports and data visualizations to power business intelligence. Often called location intelligence</p>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">Track progress with Scoreboard | HyperTrack | Docs</p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/docs/guides/scoreboard</a>
+            </div>
+            <div class="divider-home"></div>
+          </div>
+          <div class="_w-card-resource">
+            <div class="_w-row1-resource">
+              <div class="_w-ic-favicon w-embed"><img class="ic-favicon" src="https://api.statvoo.com/favicon/?url=https://hypertrack.com/"></div>
+              <p class="meta-title">Get Insights from tracked data | HyperTrack | Docs</p>
+            </div>
+            <div class="_w-row2-resource">
+              <a href="https://developer.android.com/reference/android/hardware/SensorManager" target="_blank" class="intext-link-resource">https://hypertrack.com/docs/guides/get-insights-from-tracked-data</a>
+            </div>
+          </div>
+          <div class="_w-resource-footer">
+            <div class="_w-btn-mailto w-embed">
+              <a class="btn-mailto" href="mailto:?subject=&body=:%20" target="_blank" title="Email" onclick="window.open('mailto: help@hypertrack.com?subject=Insights'); return false;">Suggest more resources</a>
             </div>
           </div>
         </section>
@@ -846,17 +1331,37 @@
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=60908f82537953aea1169f6c" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script src="https://unpkg.com/popper.js@1"></script>
+  <script src="https://unpkg.com/tippy.js@4"></script>
+  <script>
+	tippy('.tippy', {
+      animation: 'shift-away', 
+      duration: 150,   
+      arrow: true, 
+      delay: [0, 50], 
+      arrowType: 'sharp', 
+      maxWidth: 400, 
+      touch: 'hold',
+      })
+</script>
   <script>
 document.getElementById("osd").style.display = "none";
       document.getElementById("osc").style.display = "none";
       document.getElementById("mnd").style.display = "none";
       document.getElementById("mpr").style.display = "none";
       document.getElementById("mvl").style.display = "none";
-      document.getElementById("ipcc").style.display = "none";
       document.getElementById("ir").style.display = "none";
       document.getElementById("ia").style.display = "none";
+      document.getElementById("ipcc").style.display = "none";
+      document.getElementById("cd").style.display = "none";
+      document.getElementById("cc").style.display = "none";
       document.getElementById("ca").style.display = "none";
-      document.getElementById("uc").style.display = "none";
+      document.getElementById("uc1").style.display = "none";
+      document.getElementById("uc2").style.display = "none";
+      document.getElementById("uc3").style.display = "none";
+      document.getElementById("in1").style.display = "none";
+      document.getElementById("in2").style.display = "none";
+      document.getElementById("in3").style.display = "none";
       document.getElementById("misc").style.display = "none";
 document.getElementById("btn-closeDialog").onclick =
   function() {
@@ -866,90 +1371,57 @@ document.getElementById("btn-closeDialog").onclick =
       document.getElementById("mnd").style.display = "none";
       document.getElementById("mpr").style.display = "none";
       document.getElementById("mvl").style.display = "none";
-      document.getElementById("ipcc").style.display = "none";
       document.getElementById("ir").style.display = "none";
       document.getElementById("ia").style.display = "none";
+      document.getElementById("ipcc").style.display = "none";
+      document.getElementById("cd").style.display = "none";
+      document.getElementById("cc").style.display = "none";
       document.getElementById("ca").style.display = "none";
-      document.getElementById("uc").style.display = "none";
+      document.getElementById("uc1").style.display = "none";
+      document.getElementById("uc2").style.display = "none";
+      document.getElementById("uc3").style.display = "none";
+      document.getElementById("in1").style.display = "none";
+      document.getElementById("in2").style.display = "none";
+      document.getElementById("in3").style.display = "none";
       document.getElementById("misc").style.display = "none";
-    }, 300);
+    }, 290);
   };
-function showosd() {
-  document.getElementById("osd").style.display = "flex";
-}
-function showosc() {
-  document.getElementById("osc").style.display = "flex";
-}
-function showmnd() {
-  document.getElementById("mnd").style.display = "flex";
-}
-function showmpr() {
-  document.getElementById("mpr").style.display = "flex";
-}
-function showmvl() {
-  document.getElementById("mvl").style.display = "flex";
-}
-function showipcc() {
-  document.getElementById("ipcc").style.display = "flex";
-}
-function showir() {
-  document.getElementById("ir").style.display = "flex";
-}
-function showia() {
-  document.getElementById("ia").style.display = "flex";
-}
-function showca() {
-  document.getElementById("ca").style.display = "flex";
-}
-function showuc() {
-  document.getElementById("uc").style.display = "flex";
-}
-function showmisc() {
-  document.getElementById("misc").style.display = "flex";
-}
-document.getElementById("btn-osd").onclick = function() {
-  showosd()
-};
-document.getElementById("btn-osc").onclick = function() {
-  showosc()
-};
-document.getElementById("btn-mnd").onclick = function() {
-  showmnd()
-};
-document.getElementById("btn-mpr").onclick = function() {
-  showmpr()
-};
-document.getElementById("btn-mvl").onclick = function() {
-  showmvl()
-};
-document.getElementById("btn-ipcc1").onclick = function() {
-  showipcc()
-};
-document.getElementById("btn-ipcc2").onclick = function() {
-  showipcc()
-};
-document.getElementById("btn-ir").onclick = function() {
-  showir()
-};
-document.getElementById("btn-ia").onclick = function() {
-  showia()
-};
-document.getElementById("btn-ca").onclick = function() {
-  showca()
-};
-document.getElementById("btn-uc1").onclick = function() {
-  showuc()
-};
-document.getElementById("btn-uc2").onclick = function() {
-  showuc()
-};
-document.getElementById("btn-uc3").onclick = function() {
-  showuc()
-};
-document.getElementById("btn-misc").onclick = function() {
-  showmisc()
-};
+function showosd() {document.getElementById("osd").style.display = "flex";}
+function showosc() {document.getElementById("osc").style.display = "flex";}
+function showmnd() {document.getElementById("mnd").style.display = "flex";}
+function showmpr() {document.getElementById("mpr").style.display = "flex"}
+function showmvl() {document.getElementById("mvl").style.display = "flex";}
+function showir() {document.getElementById("ir").style.display = "flex";}
+function showia() {document.getElementById("ia").style.display = "flex";}
+function showipcc() {document.getElementById("ipcc").style.display = "flex";}
+function showcd() {document.getElementById("cd").style.display = "flex";}
+function showcc() {document.getElementById("cc").style.display = "flex";}
+function showca() {document.getElementById("ca").style.display = "flex";}
+function showuc1() {document.getElementById("uc1").style.display = "flex";}
+function showuc2() {document.getElementById("uc2").style.display = "flex";}
+function showuc3() {document.getElementById("uc3").style.display = "flex";}
+function showin1() {document.getElementById("in1").style.display = "flex";}
+function showin2() {document.getElementById("in2").style.display = "flex";}
+function showin3() {document.getElementById("in3").style.display = "flex";}
+function showmisc() {document.getElementById("misc").style.display = "flex";}
+document.getElementById("btn-osd").onclick = function() {showosd()};
+document.getElementById("btn-osc").onclick = function() {showosc()};
+document.getElementById("btn-mnd").onclick = function() {showmnd()};
+document.getElementById("btn-mpr").onclick = function() {showmpr()};
+document.getElementById("btn-mvl").onclick = function() {showmvl()};
+document.getElementById("btn-ir").onclick = function() {showir()};
+document.getElementById("btn-ia").onclick = function() {showia()};
+document.getElementById("btn-ipcc").onclick = function() {showipcc()};
+document.getElementById("btn-cd").onclick = function() {showcd()};
+document.getElementById("btn-cc").onclick = function() {showcc()};
+document.getElementById("btn-ca").onclick = function() {showca()};
+document.getElementById("btn-uc1").onclick = function() {showuc1()};
+document.getElementById("btn-uc2").onclick = function() {showuc2()};
+document.getElementById("btn-uc3").onclick = function() {showuc3()};
+document.getElementById("btn-in1").onclick = function() {showin1()};
+document.getElementById("btn-in2").onclick = function() {showin2()};
+document.getElementById("btn-in3").onclick = function() {showin3()};
+document.getElementById("btn-misc").onclick = function() {showmisc()};
 </script>
 </body>
 </html>
-
